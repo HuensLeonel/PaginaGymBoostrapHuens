@@ -593,3 +593,25 @@ body{
 .divCotratar{
     margin-top: 40px;
 }
+
+
+@media only screen and (max-width:1200px){
+    .form-img{
+        display: none;
+    }
+
+    .form{
+        width: 100%;
+    }
+
+}
+
+@media only screen and (max-width:450px){
+    .sectionFrom {
+        width: 100%;
+    }
+    .contenedorFrom{
+        box-shadow: none;
+    }
+
+}
